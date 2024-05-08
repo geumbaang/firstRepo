@@ -70,7 +70,7 @@ public class ReplyController {
 		System.out.println("신규 댓글 처리요청됨.");
 		Long rno = replyService.register(replyDTO);
 		
-		return new ResponseEntity(rno, HttpStatus.OK);
+		return new ResponseEntity(rno, HttpStatus.OK);//이건주석임.
 	}
 	
 	
